@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "declarationDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+
