@@ -1,5 +1,8 @@
 {
-  "name": "component-library",
+  "name": "@yurich30/component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/yurich30"
+  },
   "version": "0.0.1",
   "description": "A simple react componentt library",
   "keywords": [],
