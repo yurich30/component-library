@@ -18,7 +18,6 @@ const VideoItem: React.FC<IVideoItemProperties> = ({ video }) => {
             />
             <div>
               <div className={styles.name}>{video.authorMeta.name}</div>
-              <div className={styles.hashtags}>{video.hashtags?.map(hashtag => <span key={hashtag.name}>{hashtag.name}</span>)}</div>
               <div>
                 {video.musicMeta.musicName} - {video.musicMeta.musicAuthor}
               </div>
